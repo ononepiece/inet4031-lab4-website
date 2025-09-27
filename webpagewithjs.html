@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<title>Hayat's Lightbulb Demo</title>
+</head>
+<body style="background-color: rgb(230, 201, 173); text-align: center; font-family: Arial, sans-serif;">
 
-<h2>Simple Web Page with HTML and JavaScript</h2>
+<h1>Welcome to Hayat's Page</h1>
+<p>This page shows how JavaScript can turn a lightbulb on and off.</p>
 
-<p>JavaScript can change HTML attribute values.</p>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px; margin: 20px;">
 
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
+<p>
 <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
 <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+</p>
 
 </body>
 </html>
